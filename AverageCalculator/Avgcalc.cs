@@ -1,6 +1,6 @@
 ﻿namespace AverageCalculator;
 
-public class Class1
+public class AverageCalculator
 {
     private List<double> werte = new List<double>();
 
@@ -9,7 +9,7 @@ public class Class1
         werte.Add(value);
     }
 
-    public void add(double[] values)
+    public void Add(double[] values)
     {
         foreach (double v in values)
         {
@@ -17,7 +17,7 @@ public class Class1
         }
     }
 
-    public double getAverage()
+    public double GetAverage()
     {
         if (werte.Count == 0)
         {
@@ -34,12 +34,12 @@ public class Class1
         return summe / werte.Count;
     }
 
-    public double[] getElements()
+    public double[] GetElements()
     {
         return werte.ToArray();
     }
 
-    public int count()
+    public int Count()
     {
         return werte.Count;
     }
