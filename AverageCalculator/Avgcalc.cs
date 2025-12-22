@@ -2,29 +2,45 @@
 
 public class Class1
 {
-    public double add(double value) {
+    private List<double> werte = new List<double>();
+
+    public void Add(double value)
+    {
         werte.Add(value);
     }
-    public double add(double[] value) {
-        foreach (double value in values)
+
+    public void add(double[] values)
+    {
+        foreach (double v in values)
         {
-            werte.Add(values);
+            werte.Add(v);
         }
     }
-    public double getAverage(double[] values, values.Length) {
-        if (value > null || value.Length > 0){
-            int average = 0;
-            avrage = value / value.Length;
-            return average;
-        } if (value == null || value.Length == 0) {
-            return;
+
+    public double getAverage()
+    {
+        if (werte.Count == 0)
+        {
+            return 0;
         }
+
+        double summe = 0;
+
+        foreach (double v in werte)
+        {
+            summe += v;
+        }
+
+        return summe / werte.Count;
     }
-    public double[] getElements(double[] values, values.Length) {
+
+    public double[] getElements()
+    {
         return werte.ToArray();
     }
-    public int count(value) {
-        numbercount = value.Length;
-        return numbercount;
+
+    public int count()
+    {
+        return werte.Count;
     }
 }
