@@ -1,0 +1,6 @@
+/config/workspace/api-documentation-Leon-G7/Tests/obj/Debug/net8.0/Tests.csproj.AssemblyReference.cache
+/config/workspace/api-documentation-Leon-G7/Tests/obj/Debug/net8.0/Tests.GeneratedMSBuildEditorConfig.editorconfig
+/config/workspace/api-documentation-Leon-G7/Tests/obj/Debug/net8.0/Tests.AssemblyInfoInputs.cache
+/config/workspace/api-documentation-Leon-G7/Tests/obj/Debug/net8.0/Tests.AssemblyInfo.cs
+/config/workspace/api-documentation-Leon-G7/Tests/obj/Debug/net8.0/Tests.csproj.CoreCompileInputs.cache
+/config/workspace/api-documentation-Leon-G7/Tests/obj/Debug/net8.0/Tests.sourcelink.json

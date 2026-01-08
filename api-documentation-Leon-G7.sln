@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AverageCalculator", "Averag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program", "Program\Program.csproj", "{0A66D1E3-EFBD-4C50-9E10-07C1052E3DEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{B45AAE35-978C-4F13-A58E-F42795927315}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{0A66D1E3-EFBD-4C50-9E10-07C1052E3DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A66D1E3-EFBD-4C50-9E10-07C1052E3DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A66D1E3-EFBD-4C50-9E10-07C1052E3DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B45AAE35-978C-4F13-A58E-F42795927315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B45AAE35-978C-4F13-A58E-F42795927315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B45AAE35-978C-4F13-A58E-F42795927315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B45AAE35-978C-4F13-A58E-F42795927315}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
